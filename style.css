@@ -26,6 +26,9 @@ ul{
     display: flex;
     justify-content: space-between;
 }
+li{
+    width: 25%;
+}
 li:hover{
     font-weight: bold;
     cursor: pointer;
@@ -76,6 +79,15 @@ li:hover{
 @media (max-width: 600px){
     .laranja-azul{
         align-items: flex-end;
+    }
+    .linha-um{
+        flex-direction: column;
+    }
+    .linha-dois{
+        flex-direction: column;
+    }
+    .linha-tres{
+        flex-direction: column;
     }
 }
 .linha-um{
