@@ -3,10 +3,6 @@
     box-sizing: border-box;
     font-family: 'Montserrat';
 }
-body{
-    width: 100%;
-    height: 2150px;
-}
 header{
     background-color: white;
     width: 100%;
@@ -76,20 +72,6 @@ li:hover{
     text-transform: uppercase;
     margin-top: 5%;
 }
-@media (max-width: 600px){
-    .laranja-azul{
-        align-items: flex-end;
-    }
-    .linha-um{
-        flex-direction: column;
-    }
-    .linha-dois{
-        flex-direction: column;
-    }
-    .linha-tres{
-        flex-direction: column;
-    }
-}
 .linha-um{
     width: 100%;
     height: 430px;
@@ -110,6 +92,24 @@ li:hover{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+}
+@media (max-width: 600px){
+    .laranja-azul{
+        align-items: flex-end;
+    }
+    section{
+        display: flex;
+        flex-direction: column;
+    }
+    .linha-um{
+        flex-direction: column;
+    }
+    .linha-dois{
+        flex-direction: column;
+    }
+    .linha-tres{
+        flex-direction: column;
+    }
 }
 footer{
     width: 100%;
